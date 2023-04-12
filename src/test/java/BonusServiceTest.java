@@ -36,7 +36,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForUnRegisteredUnderLimit(){
+    void shouldCalculateForUnRegisteredUnderLimit() {
         BonusService service = new BonusService();
         long amount = 5_000;
         boolean registered = false;
@@ -47,7 +47,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForUnRegisteredOverLimit(){
+    void shouldCalculateForUnRegisteredOverLimit() {
         BonusService service = new BonusService();
         long amount = 1_000_000;
         boolean registered = false;
